@@ -1,0 +1,3 @@
+﻿1>------ Build started: Project: 1.InicioVisualStudio, Configuration: Debug|AnyCPU ------
+1>  1.InicioVisualStudio -> C:\Users\Danna\OneDrive\Desktop\Danna Caballero- fund. programación\1.InicioVisualStudio\1.InicioVisualStudio\bin\Debug\net9.0\1.InicioVisualStudio.dll
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
