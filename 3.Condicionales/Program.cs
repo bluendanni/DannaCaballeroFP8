@@ -37,7 +37,7 @@
             }
             if (edad < 18)
             {
-                Console.WriteLine($"A mimir");
+                Console.WriteLine($"A mimir!");
             }
         }
     }
