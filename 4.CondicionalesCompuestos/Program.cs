@@ -18,7 +18,7 @@
 
             if (sueldo >= 3000)
             {
-                //Verdadera
+                //Verdadero
                 Console.WriteLine($"La persona {nombre}, debe abonar impuestos");
             }
             else
