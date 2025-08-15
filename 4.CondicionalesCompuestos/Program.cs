@@ -1,6 +1,4 @@
-﻿using static System.Runtime.InteropServices.JavaScript.JSType;
-
-namespace _4.CondicionalesCompuestos
+﻿namespace _4.CondicionalesCompuestos
 {
     internal class Program
     {
@@ -25,7 +23,7 @@ namespace _4.CondicionalesCompuestos
             }
             else
             {
-                //Fake
+                //Falso
                 Console.WriteLine($"La persona {nombre}, esta excento de impuestos");
             }
 
