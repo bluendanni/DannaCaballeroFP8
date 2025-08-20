@@ -11,7 +11,7 @@
 
             Console.WriteLine("Ingrese su nombre");
             nombre = Console.ReadLine(); //Todo lo que se lee desde la consola llega como un string
-            Console.WriteLine("Ingrese su suelo");
+            Console.WriteLine("Ingrese su sueldo");
             sueldo = Convert.ToInt32(Console.ReadLine());
 
             if (sueldo > 3000)
