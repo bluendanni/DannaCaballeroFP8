@@ -34,7 +34,7 @@
 
             else if (promedio >= 8.5 && promedio <= 9.4)
             {
-                Console.WriteLine("Promedio:" + promedio + " (Bien)");
+                Console.WriteLine("Promedio:" + promedio + " (¡Muy bien!)");
             }
 
             else if (promedio >= 9.5 && promedio <= 10.0)
