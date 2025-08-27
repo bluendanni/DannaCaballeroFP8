@@ -8,10 +8,16 @@
             Console.WriteLine("¿El personaje está en estado invencible? (True/False): ");
             bool invencible = Convert.ToBoolean(Console.ReadLine());
 
-            //Generar munición aleatoria con Random
-            Random rnd = new Random();
+            if (invencible )
+            {
+                Console.WriteLine("¿Cuánta munición tiene?");
+            }
+
+                //Generar munición aleatoria con Random
+                Random rnd = new Random();
             int municion = rnd.Next(0, 21); // Genera entre 0 y 20
             Console.WriteLine($"Cantidad de munición: {municion}");
+            
 
             // Condición pedida
             if (invencible && municion >= 1 && municion <= 10)
