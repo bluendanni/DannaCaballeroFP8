@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            //10.Crear un algoritmo que permita calcular la factorial de un número dado por el usuario. (5! = 1 * 2 * 3 * 4 * 5)//
+            //10.Crear un algoritmo que permita calcular la factorial de un número dado por el usuario. (5! = 1 * 2 * 3 * 4 * 5)
             Console.WriteLine("Ingrese un número para calcular su factorial:");
             int numero = int.Parse(Console.ReadLine());
             int factorial = 1;
