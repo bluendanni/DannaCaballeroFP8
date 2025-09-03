@@ -19,7 +19,7 @@
                 }
                 contador++;
             }
-            Console.WriteLine("Entre 1 y " + n + " hay " + pares + " números pares ");
+            Console.WriteLine("La cantidad de números pares entre 1 y " + n + " son: " + pares );
         }
     }
 }
