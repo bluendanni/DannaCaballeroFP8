@@ -11,7 +11,7 @@
 
             for (int mes = 1; mes <= 12; mes++)
             {
-                Console.Write("Ingresa la cantidad que vas a depositar en el mes " + mes + ": ");
+                Console.Write("Ingresa la cantidad que vas a depositar en el mes " + mes + ": "); 
                 double deposito = double.Parse(Console.ReadLine());
 
                 ahorroTotal += deposito;
