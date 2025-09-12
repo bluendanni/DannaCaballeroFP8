@@ -43,48 +43,7 @@ namespace _22.Taller2
                 {
                     Console.WriteLine(numerito);
                 }
-                // Bucle infinito, salimos con break cuando el usuario diga 'n'
-                {
-                    Console.Write("Ingrese la base (o 'n' para salir): ");
-                    string entradaBase = Console.ReadLine();
-
-                    if (entradaBase.ToLower() == "n")
-                    {
-                        Console.WriteLine("Programa finalizado.");
-                        break;
-                    }
-
-                    int b;
-                    if (!int.TryParse(entradaBase, out b))
-                    {
-                        Console.WriteLine("Entrada inválida. Intente de nuevo.");
-                        continue;
-                    }
-
-                    Console.Write("Ingrese el exponente: ");
-                    string entradaExp = Console.ReadLine();
-
-                    if (entradaExp.ToLower() == "n")
-                    {
-                        Console.WriteLine("Programa finalizado.");
-                        break;
-                    }
-
-                    int e;
-                    if (!int.TryParse(entradaExp, out e))
-                    {
-                        Console.WriteLine("Entrada inválida. Intente de nuevo.");
-                        continue;
-                    }
-
-                    long resultado = 1;
-                    for (int i = 0; i < e; i++)
-                    {
-                        resultado *= b;
-                    }
-
-                    Console.WriteLine($"{b}^{e} = {resultado}");
-                }
+                
             }
         }
     }
