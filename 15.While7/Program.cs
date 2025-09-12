@@ -20,7 +20,6 @@
             }
 
             Console.WriteLine("\nEl ahorro total en el año es: " + ahorroTotal);
-            felicidad
         }
     }
 }
