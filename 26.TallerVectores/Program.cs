@@ -37,7 +37,7 @@
                 Console.Write(vector[j] + " | ");
             }
 
-            Console.WriteLine($"El valor máximo es: {max}");
+            Console.WriteLine($"El valor máximo es: {max}"); 
             Console.WriteLine($"El valor mínimo es: {min}");
 
             //Escribe un algoritmo que permita ingresar caracteres en un vector, y luego invierta el orden de los elementos del vector. Se deben mostrar lo dos vectores.
