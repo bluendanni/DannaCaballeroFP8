@@ -58,7 +58,7 @@
 
             int[,] matriz = new int[n, m];
 
-            Console.WriteLine("\n--- Ingreso de elementos de la matriz ---");
+            Console.WriteLine("\n Ingrese elementos de la matriz ");
 
             for (int i = 0; i < n; i++)
             {
